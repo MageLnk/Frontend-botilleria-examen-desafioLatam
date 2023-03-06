@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+/* General */
+
+* {
+
+font-family: 'Montserrat', sans-serif;
+
+}
+
 :root {
   --main-dark-bg-color: #002e39;
   --main-light-bg-color: #0f3942;
@@ -8,9 +18,87 @@
   --general-bg-color: #002125;
 }
 
-.header-layout-container {
-  grid-area: header;
+p {
+  font-size:12px;
 }
+
+.red-color {
+  color:#DB0600;
+} 
+.black-color{
+  color:#000000;
+
+}
+.grey-color {
+  color:#3F3F3F;
+}
+
+.white-color {
+  color:#ffffff;
+}
+
+.background-red {
+  background-color:#DB0600;
+}
+
+.background-black {
+  background-color:#000000;
+}
+
+.background-grey {
+  background-color:#3F3F3F;
+}
+
+
+/* Header */
+
+
+.info-header {
+  padding:8px 0px 8px 0px;
+  text-align: center;
+}
+
+.info-header p{
+  margin:0px 0px 0px 0px;
+}
+
+.anticon-heart {
+  color:#DB0600;
+  padding-right:3px;
+}
+
+
+.menu {
+  padding: 15px;
+}
+
+
+.logo {
+  max-width: 130px;
+}
+
+.menu_principal .menu .label {
+ 
+border:none;
+}
+
+:where(.css-dev-only-do-not-override-10ed4xt).ant-menu-light.ant-menu-horizontal >.ant-menu-item, :where(.css-dev-only-do-not-override-10ed4xt).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu {
+  padding-inline: 5px;
+}
+
+:where(.css-dev-only-do-not-override-10ed4xt).ant-menu-horizontal {
+  border:none;
+}
+
+.bajada-header {
+
+text-align: center;
+padding: 10px;
+border-top: 1px solid #D8D8D8;
+}
+
+
+/*Footer*/
 
 .home-page-container {
   grid-area: main-content;
